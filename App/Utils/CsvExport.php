@@ -5,7 +5,9 @@ namespace App\Utils;
 class CsvExport
 {
     private $headers;
+
     private $cells;
+
     private $columns;
 
     public function __construct(array $headers, array $cells)
